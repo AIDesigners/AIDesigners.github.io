@@ -10,8 +10,9 @@
   overflow: scroll;
 }
 
-code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+pre code {
+   
+        white-space: pre; overflow: auto;word-wrap: normal; display: inline-block; 
 }
 
 .highlight .c { color: #586E75 } /* Comment */
