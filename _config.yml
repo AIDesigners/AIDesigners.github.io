@@ -12,7 +12,13 @@ description: Written by Alex Yakonvenkov & Neelam Memon
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 <style type="text/css">
-  code { white-space: code; overflow: auto; }
+  pre { 
+        white-space: pre; overflow: auto; 
+      }
+  .highlight pre {
+    word-wrap: normal;
+}
+
 </style>
 
 
