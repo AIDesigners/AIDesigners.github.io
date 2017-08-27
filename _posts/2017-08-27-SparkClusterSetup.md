@@ -2,7 +2,7 @@
 layout: post
 title: How to setup Spark over a Cluster
 ---
-
+### How to setup Spark over a Cluster
 <p align="justify">
 In 2010, Google introduced MapReduce, a batch-processing framework for running computations involving large data volume over a commodity cluster. MapReduce was later adopted by several companies including Google, Amazon, IBM etc. It solved the scalability issues to great extent when dealing with large datasets and showed good performance, provided that the recipes for data processing do not involve any repeatative processing of a single step. The reason for this was that MapReduce reads data at the begining of a step and the scope of the objects holding this data are upto the end of this step. So the data objects are destoyed once a step ends. As a result, repeating a step incurs significant parallelism overhead. 
 </p>
